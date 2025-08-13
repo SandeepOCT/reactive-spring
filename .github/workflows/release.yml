@@ -71,7 +71,7 @@ jobs:
           # add title pattern to make release PR, defaults to using "chore${scope}: release${component} ${version}"
           # pull-request-title-pattern: # optional, default is 
           # mark release as a draft
-          draft: true
+          # draft: true
           # mark pull request as a draft
           # draft-pull-request: # optional
           
