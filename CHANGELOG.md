@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://github.com/SandeepOCT/reactive-spring/compare/v1.0.1...v1.0.2) (2025-08-13)
+
+
+### Bug Fixes
+
+* 🐛 removing unwanted file ([2533e2d](https://github.com/SandeepOCT/reactive-spring/commit/2533e2d376a33cfb356b24f096dd9f2a5d36983d))
+
 ### [1.0.1](https://github.com/SandeepOCT/reactive-spring/compare/v1.0.0...v1.0.1) (2025-08-13)
 
 
