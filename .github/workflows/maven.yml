@@ -29,7 +29,7 @@ jobs:
         uses: googleapis/release-please-action@v3.1.2
         with:
           # GitHub token for creating and grooming release PRs, defaults to using secrets.GITHUB_TOKEN
-          token: ${{ github.token }}
+          # token: ${{ github.token }}
           # should the PR be proposed from a fork, Default to false
           # name of the distributions releases are being created for, e.g., "name" in package.json, or "setup.py"
           # package-name: # optional
