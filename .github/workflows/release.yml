@@ -53,7 +53,7 @@ jobs:
           # branch to open pull release PR against (detected by default)
           # default-branch: # optional, default is 
           # changlelog commit types
-          # changelog-types: # optional, default is 
+          changelog-types: chore. perf, docs, ci
           # where can the config file be found in the project?
           # config-file: # optional, default is 
           # where can the manifest file be found in the project?
