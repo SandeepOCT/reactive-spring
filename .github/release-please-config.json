@@ -6,43 +6,35 @@
     },
     {
       "type": "perf",
-      "section": "Performance Improvements",
-      "release-as": "patch"
+      "section": "Performance Improvements"
     },
     {
       "type": "fix",
-      "section": "Bug Fixes",
-      "release-as": "patch"
+      "section": "Bug Fixes"
     },
     {
       "type": "build",
-      "section": "Build & Library updates",
-      "release-as": "patch"
+      "section": "Build & Library updates"
     },
     {
       "type": "deps",
-      "section": "Build & Library updates",
-      "release-as": "patch"
+      "section": "Build & Library updates"
     },
     {
       "type": "chore",
-      "section": "Other Changes",
-      "release-as": "patch"
+      "section": "Other Changes"
     },
     {
       "type": "test",
-      "section": "Other Changes",
-      "release-as": "null"
+      "section": "Other Changes"
     },
     {
       "type": "ci",
-      "section": "CI",
-      "release-as": "null"
+      "section": "CI"
     },
     {
       "type": "dx",
-      "section": "Developer Experience Improvements",
-      "release-as": "null"
+      "section": "Developer Experience Improvements"
     }
   ]
 }
