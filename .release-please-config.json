@@ -1,8 +1,7 @@
 {
   "changelogSections": {
     "style": {
-      "title": "Styles",
-      "hidden": false
+      "title": "Styles"
     },
     "chore": {
       "title": "Miscellaneous Chores",
