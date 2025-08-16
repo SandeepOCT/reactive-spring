@@ -20,5 +20,5 @@ jobs:
         with:
           release-type: simple
           config-file: .github/release-please-config.json
-          skip-labeling: true
+          # skip-labeling: true
           # not skip test
