@@ -1,31 +1,48 @@
 {
-  "changelogSections": {
-    "style": {
-      "title": "Styles"
+  "types": [
+    {
+      "type": "feat",
+      "section": "Features"
     },
-    "chore": {
-      "title": "Miscellaneous Chores",
-      "hidden": false
+    {
+      "type": "perf",
+      "section": "Performance Improvements",
+      "release-as": "patch"
     },
-    "refactor": {
-      "title": "Code Refactoring",
-      "hidden": false
+    {
+      "type": "fix",
+      "section": "Bug Fixes",
+      "release-as": "patch"
     },
-    "test": {
-      "title": "Tests",
-      "hidden": false
+    {
+      "type": "build",
+      "section": "Build & Library updates",
+      "release-as": "patch"
     },
-    "build": {
-      "title": "Build & Dependencies",
-      "hidden": false
+    {
+      "type": "deps",
+      "section": "Build & Library updates",
+      "release-as": "patch"
     },
-    "deps": {
-      "title": "Build & Dependencies",
-      "hidden": false
+    {
+      "type": "chore",
+      "section": "Other Changes",
+      "release-as": "patch"
     },
-    "ci": {
-      "title": "Continuous Integration",
-      "hidden": false
+    {
+      "type": "test",
+      "section": "Other Changes",
+      "release-as": "null"
+    },
+    {
+      "type": "ci",
+      "section": "CI",
+      "release-as": "null"
+    },
+    {
+      "type": "dx",
+      "section": "Developer Experience Improvements",
+      "release-as": "null"
     }
-  }
+  ]
 }
