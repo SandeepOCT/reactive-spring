@@ -1,0 +1,32 @@
+{
+  "changelogSections": {
+    "style": {
+      "title": "Styles",
+      "hidden": false
+    },
+    "chore": {
+      "title": "Miscellaneous Chores",
+      "hidden": false
+    },
+    "refactor": {
+      "title": "Code Refactoring",
+      "hidden": false
+    },
+    "test": {
+      "title": "Tests",
+      "hidden": false
+    },
+    "build": {
+      "title": "Build & Dependencies",
+      "hidden": false
+    },
+    "deps": {
+      "title": "Build & Dependencies",
+      "hidden": false
+    },
+    "ci": {
+      "title": "Continuous Integration",
+      "hidden": false
+    }
+  }
+}
