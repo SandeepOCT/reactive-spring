@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.8.0](https://github.com/SandeepOCT/reactive-spring/compare/v1.7.0...v1.8.0) (2025-08-16)
+
+
+### Features
+
+* New Feature ([7fe432a](https://github.com/SandeepOCT/reactive-spring/commit/7fe432a470fea4635cbfe5a4008f85680bb27665))
+
+
+### Bug Fixes
+
+* 🐛 try renaming config file ([c72353a](https://github.com/SandeepOCT/reactive-spring/commit/c72353ad1ecdff0402262733c403f23b2cbab5fe))
+* Bug Fix ([666909b](https://github.com/SandeepOCT/reactive-spring/commit/666909b13d46627961b5a5d7c758c0bf9dc47a50))
+
+
+### Performance Improvements
+
+* ⚡ zapping ([31169b2](https://github.com/SandeepOCT/reactive-spring/commit/31169b29544836a31f7dc1d4add49e0f7c135afb))
+* Performance Improvements ([2992daf](https://github.com/SandeepOCT/reactive-spring/commit/2992dafead857adc8dedd52c0baeb87b9e33e388))
+
 ## [1.7.0](https://github.com/SandeepOCT/reactive-spring/compare/v1.6.0...v1.7.0) (2025-08-16)
 
 
