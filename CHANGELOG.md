@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.11.0](https://github.com/SandeepOCT/reactive-spring/compare/v1.10.0...v1.11.0) (2025-08-16)
+
+
+### Features
+
+* New Feature ([e05ecd8](https://github.com/SandeepOCT/reactive-spring/commit/e05ecd89b6ec46c76781c3d6bfb1ccf19199f7ae))
+
+
+### Bug Fixes
+
+* 🐛 trying ([7386c3c](https://github.com/SandeepOCT/reactive-spring/commit/7386c3cf86b85302ca0b2ab3281a0ac3a9fc05cf))
+* Bug Fix ([242d004](https://github.com/SandeepOCT/reactive-spring/commit/242d0040522830a4dd40cfa0e620fc852e2f7347))
+
+
+### Performance Improvements
+
+* Performance Improvements ([70dd9f3](https://github.com/SandeepOCT/reactive-spring/commit/70dd9f37bd1ff6fabe3180fb0223df772e0c5116))
+
 ## [1.10.0](https://github.com/SandeepOCT/reactive-spring/compare/v1.9.1...v1.10.0) (2025-08-16)
 
 
