@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/SandeepOCT/reactive-spring/compare/v1.9.0...v1.9.1) (2025-08-16)
+
+
+### Bug Fixes
+
+* 🐛 with label test ([d82816d](https://github.com/SandeepOCT/reactive-spring/commit/d82816d6ca5fd04d302feccedad796f538fda85c))
+
 ## [1.9.0](https://github.com/SandeepOCT/reactive-spring/compare/v1.8.0...v1.9.0) (2025-08-16)
 
 
