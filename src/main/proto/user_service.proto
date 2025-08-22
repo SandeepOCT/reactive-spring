@@ -1,0 +1,116 @@
+syntax = "proto3";
+
+package com.example.demo.reactive.grpc;
+
+option java_multiple_files = true;
+option java_package = "com.example.demo.reactive.grpc";
+option java_outer_classname = "UserServiceProto";
+
+// User service definition
+service UserService {
+  // Get users with streaming response
+  rpc GetUsers(GetUsersRequest) returns (stream UserResponse);
+  
+  // Get user count
+  rpc GetUserCount(GetUserCountRequest) returns (UserCountResponse);
+  
+  // Get users by page
+  rpc GetUsersByPage(GetUsersByPageRequest) returns (stream UserResponse);
+}
+
+// Request message for getting users
+message GetUsersRequest {
+}
+
+// Request message for getting user count
+message GetUserCountRequest {
+}
+
+// Request message for getting users by page
+message GetUsersByPageRequest {
+  int32 page = 1;
+  int32 total_pages = 2;
+}
+
+// Response message for user count
+message UserCountResponse {
+  int32 count = 1;
+}
+
+// User response message
+message UserResponse {
+  int32 id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string maiden_name = 4;
+  int32 age = 5;
+  string gender = 6;
+  string email = 7;
+  string phone = 8;
+  string username = 9;
+  string birth_date = 10;
+  string image = 11;
+  string blood_group = 12;
+  double height = 13;
+  double weight = 14;
+  string eye_color = 15;
+  Hair hair = 16;
+  string ip = 17;
+  Address address = 18;
+  string mac_address = 19;
+  string university = 20;
+  Bank bank = 21;
+  Company company = 22;
+  string ein = 23;
+  string ssn = 24;
+  string user_agent = 25;
+  Crypto crypto = 26;
+  string role = 27;
+}
+
+// Hair message
+message Hair {
+  string color = 1;
+  string type = 2;
+}
+
+// Address message
+message Address {
+  string address = 1;
+  string city = 2;
+  string state = 3;
+  string state_code = 4;
+  string postal_code = 5;
+  Coordinates coordinates = 6;
+  string country = 7;
+}
+
+// Coordinates message
+message Coordinates {
+  double lat = 1;
+  double lng = 2;
+}
+
+// Bank message
+message Bank {
+  string card_expire = 1;
+  string card_number = 2;
+  string card_type = 3;
+  string currency = 4;
+  string iban = 5;
+}
+
+// Company message
+message Company {
+  string department = 1;
+  string name = 2;
+  string title = 3;
+  Address address = 4;
+}
+
+// Crypto message
+message Crypto {
+  string coin = 1;
+  string wallet = 2;
+  string network = 3;
+}
